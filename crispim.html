@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reposição de Estoque</title>
+  </head>
+  <body>
+    <header>
+      <h1>Reposição de Estoque</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h2>Bem-vindo</h2>
+        <p>Gerencie a reposição de estoque de forma eficiente.</p>
+      </section>
+
+      <img
+        class="img"
+        src="https://media.sankhya.com.br/wp-content/uploads/2024/03/reposicao-de-estoque.jpg"
+        alt="Imagem de estoque"
+      />
+
+      <section id="produtos">
+        <h2>Cadastro de Produto</h2>
+        <form>
+          <label>Nome do produto:</label>
+          <input
+            type="text"
+            placeholder="Nome do produto"
+            required
+          /><br /><br />
+
+          <label>Data de validade:</label>
+          <input type="date" required /><br /><br />
+
+          <label for="tipo">Tipo do produto:</label>
+          <select id="tipo" required>
+            <option value="">Selecione</option>
+            <option value="cosmetico">Cosmético</option>
+            <option value="higiene">Higiene</option>
+            <option value="vestuario">Vestuário</option>
+            <option value="limpeza">Limpeza</option>
+            <option value="comida">Comida</option></select
+          ><br /><br />
+
+          <label>Descrição do produto:</label><br />
+          <textarea placeholder="Informe aqui"></textarea><br /><br />
+
+          <input type="submit" value="Enviar" /><br /><br />
+        </form>
+      </section>
+    </main>
+
+    <aside>
+      <h3>Curiosidades sobre Estoque</h3>
+      <ul>
+        <li>O controle de estoque ajuda a evitar desperdícios.</li>
+        <li>Produtos perecíveis devem ser armazenados corretamente.</li>
+        <li>A tecnologia facilita a gestão eficiente do estoque.</li>
+      </ul>
+    </aside>
+
+    <footer>
+      <p>&copy; 2025 Reposição de Estoque</p>
+    </footer>
+  </body>
+</html>
