@@ -1,0 +1,237 @@
+/* Index1.html */
+#org{
+    font-size: 3px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#linha{
+    font-size: 2px;
+    color: rgb(133, 133, 133);
+}
+#v1{
+    font-family: Arial;
+    color: blue;
+    font-size: 30px;
+}
+#v2{
+    font-family: bold, Arial;
+    font-size: 3px;
+    color: green;
+}
+#v3{
+    font-family: italic, Arial;
+    font-size: 3px;
+    color: red;
+}
+#v4{
+     text-decoration: underline;
+     font-family: Arial;
+     font-size: 3px;
+     color: red
+}
+#formt{
+    font-family: Arial;
+    font-size: 5px;
+    color: magenta;
+}
+/* Fim index1.html */
+
+
+/* Começo index2.html */
+.bar_fer {
+    margin-top: 3%;
+    color: blue;
+    font-size: 3px;
+}
+.titulo{
+    color: blue;
+    font-size: 30px;
+}
+.index2 img{
+    width: 15px;
+    height: 25px;
+    margin-right: 10px;
+} 
+/* Fim index2.html */
+
+
+/* Começo Index3.html */
+#curs_grad{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    color: blue;
+    font-size: 3px;
+}
+#v{
+    color: green;
+}
+#m{
+    color: brown;
+}
+/* Fim Index3.html */
+
+
+/* Começo Index4.html */
+
+.nots {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blue;
+    margin-top: 3%;
+    margin-bottom: -5px;
+}
+.table { 
+    position: relative;
+    left: 20%;
+    width: 50%;
+    border: 2px solid #cfcdcdc0;
+    box-shadow: 2px 2px 5px #aaa, -2px -2px 5px #fff;
+}
+#lin {
+    width: 100%;
+    height: 3px;
+    font-size: 11px;
+    background-color: #919191;
+}
+.table th, td {
+    border: 2px solid #cfcdcdc0;
+    padding: 5px 11px;
+    text-align: center;
+}
+.an {
+    display: flex;
+}
+
+.prov {
+    display: flexbox;
+    font-weight: bold;
+    font-style: italic;
+}
+.a {
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    text-align: left;
+}
+
+.c{
+    background-color: #919191;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    text-align: left;
+}
+
+#green {
+    text-align: center;
+    color: green;
+}
+
+#red{
+    text-align: center;
+    color: red;
+}
+/* Fim Index4.html */
+
+
+/* Começo Index5.html */
+#cbc {
+    font-size: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tab1 th, td  {
+    position: relative;
+    left: 20%;
+    width: 55%;
+    border: 2px solid #cfcdcdc0;
+    padding: 5px 11px;
+    text-align: center;
+}
+
+.tab2{
+    border: 2px solid #cfcdcdc0;
+    padding: 11px 11px;
+    width: 10%;
+}
+
+
+.org {
+    display: flex;
+    border: 0px;
+}
+/* Fim Index5.html */
+
+
+
+/* Começo Exerc 6 */
+.sidebar {
+    position: relative;
+    left: -1%;
+    margin-top: -1%;
+    width: 170px;
+    height: 595px;
+    border: 1px solid #8b8b8b;
+    padding: 11px;
+}
+.sidebar h2 {
+  color: orange;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+.rodape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid #8b8b8b;
+  text-align: center;
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+.titulo-central {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -220px);
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+}
+/* Fim exerc 7.6 */
+
+
+/* Começo Exerc 7.7 */
+a {
+  text-decoration: none;
+  color: blue;
+}
+h3 {
+  color: blue;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+}
+h1 {
+  color: blue;
+  font-family: Arial, sans-serif;
+  font-size: 16pt;
+}
+.nomeCampo {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+}
+
+
+/* Fim Exerc 7.7 */
